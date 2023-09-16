@@ -35,6 +35,9 @@ ORG_OPENAI_IDv=""
 # Run Migrates
 $ npx prisma migrate dev
 
+# Seed prompts
+$ yarn prisma seed
+
 # Start server
 $ yarn run dev
 
