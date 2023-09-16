@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek - AI" src="web/public/assets/wallpaper.jpg" width="1024px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek - AI" src="web/public/assets/wallpaper.jpg" />
 </h1>
 <h1 align="center">Next Level Week - AI</h1>
 <p align="center">Project <strong>upload.ai</strong> developed during the Rocketseat Next Level Week.
@@ -12,7 +12,7 @@
 - [Fastify](https://www.fastify.io/)
 - [Prisma](https://www.prisma.io/)
 - [SQLite](https://www.sqlite.org/index.html)
-- [OpenAiAPI](https://platform.openai.com/)
+- [OpenAI - API](https://platform.openai.com/)
 - [Vite](https://vitejs.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [FFMPEG](https://ffmpeg.org/)
@@ -28,9 +28,9 @@ $ cd server
 # Install dependencies
 $ yarn
 
-# Enter the environment variables in .env file
-GITHUB_CLIENT_ID=""
-GITHUB_CLIENT_SECRET=""
+# Enter the environment variables in .env file (get in your OpenAI API account settings)
+OPENAI_KEY=""
+ORG_OPENAI_IDv=""
 
 # Run Migrates
 $ npx prisma migrate dev
@@ -54,9 +54,6 @@ $ cd web
 
 # Install dependencies
 $ yarn
-
-# You must get your clientid from your github profile and put it in the ".env.local" file like this:
-NEXT_PUBLIC_GITHUB_CLIENT_ID=
 
 # Run
 $ yarn run dev
