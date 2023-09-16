@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek - AI" src="web/public/assets/wallpaper.jpg" width="800px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek - AI" src="web/public/assets/wallpaper.jpg" width="1024px" />
 </h1>
 <h1 align="center">Next Level Week - AI</h1>
 <p align="center">Project <strong>upload.ai</strong> developed during the Rocketseat Next Level Week.
@@ -43,7 +43,7 @@ $ yarn run dev
 
 ## Backend
 
-<img align="center" src="web/public/assets/backend.png" width="600px"></img>
+<img align="center" src="web/public/assets/backend.png" width="1024px"></img>
 
 ## Frontend
 
