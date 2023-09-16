@@ -39,7 +39,7 @@ $ npx prisma migrate dev
 $ yarn prisma seed
 
 # Start server
-$ yarn run dev
+$ yarn dev
 
 # running on port 3333
 ```
@@ -59,7 +59,7 @@ $ cd web
 $ yarn
 
 # Run
-$ yarn run dev
+$ yarn dev
 ```
 <img align="center" src="web/public/assets/front.gif" width="1024px"></img>
 
